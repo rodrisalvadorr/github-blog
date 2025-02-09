@@ -1,12 +1,9 @@
 import { Header } from '../components/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-	faArrowUpRightFromSquare,
-	faBuilding,
-	faUserGroup,
-} from '@fortawesome/free-solid-svg-icons';
+import { faBuilding, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Card } from '../components/Card';
+import { Link } from '../components/Link';
 
 export function Home() {
 	return (
@@ -24,18 +21,7 @@ export function Home() {
 						<h1 className='font-bold text-title-l text-base-title mb-2'>
 							Rodrigo Salvador
 						</h1>
-						<a
-							className='flex gap-2 justify-center items-center hover:border-b hover:border-b-blue'
-							href='https://www.github.com/interbrok'
-						>
-							<span className='text-link text-blue font-bold uppercase'>
-								Github
-							</span>
-							<FontAwesomeIcon
-								className='text-blue w-3 h-3'
-								icon={faArrowUpRightFromSquare}
-							/>
-						</a>
+						<Link label='github' />
 					</div>
 
 					<p className='text-text-m text-base-text mb-6'>
