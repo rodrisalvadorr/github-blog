@@ -1,5 +1,10 @@
-import { Post } from './pages/Post';
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './Routes';
 
 export function App() {
-	return <Post />;
+	return (
+		<BrowserRouter>
+			<Router />
+		</BrowserRouter>
+	);
 }

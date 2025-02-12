@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Header } from '../components/Header';
 import {
 	faCalendarDay,
 	faChevronLeft,
@@ -11,8 +10,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export function Post() {
 	return (
 		<div>
-			<Header />
-
 			<header className='rounded-[10px] bg-base-profile p-8 max-w-[864px] mx-auto mt-[-88px] drop-shadow-lg'>
 				<nav className='flex justify-between w-full mb-5'>
 					<a

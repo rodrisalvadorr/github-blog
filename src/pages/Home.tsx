@@ -1,4 +1,3 @@
-import { Header } from '../components/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBuilding, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -8,8 +7,6 @@ import { Link } from '../components/Link';
 export function Home() {
 	return (
 		<div>
-			<Header />
-
 			<section className='flex gap-8 rounded-[10px] bg-base-profile p-8 max-w-[864px] mx-auto mt-[-88px] mb-18 drop-shadow-lg'>
 				<img
 					className='w-36 h-36 rounded-lg'
